@@ -1,0 +1,30 @@
+body {
+  background: url('https://img.pikbest.com/background/20220119/pink-aesthetic-micro-three-dimensional-paper-cut-style-love-advertising-background_6232587.jpg!sw800') center/cover no-repeat;
+  font-family: 'Comic Sans MS', cursive;
+  color: rgb(177, 26, 155);
+  text-align: center;
+  padding: 50px;
+}
+
+#game {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+button {
+  background: pink;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
